@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Nexus About</title>
+    <link rel="stylesheet" href="aboutstyle.css">
+</head>
+<body>
+    <div class="main">
+        <img src="images/about cover.jpeg">
+        <div class="text">
+        <h2> About AI Nexus</h2> 
+        <p>Artificial Inteligence is 
+        whatever hasn't been done yet</p>   
+        </div>
+    </div>
+    <div class="main1">
+        <div class="main1-text">
+            <h2> AI Nexus</h2>
+            <p>     A connection or link between things, persons, or events<br>
+                 especially that is or is part of a connection between<br> person and Machine.<br>
+                 Creating a new generation of smart health and wellness<br> applications
+                  powered by Cognitive Artificial Intelligence 
+            </p>
+        </div>
+        <div class="main1-picture">
+            <img src="images/div1image.jpeg">
+        </div>
+    </div>
+    <div class="one">
+        <h1>Mission-Vission</h1>
+
+    </div>
+    <div class="mission-vission">
+               <div class="mission-pic">
+            <img src="images/nexus mission.jpeg">
+        </div>
+        <div class="mission-text">
+            <h1>Mission</h1>
+            <p> At AI Nexus IT Institute, our mission is<br>
+                to empower individuals with the knowledge and<br>
+                skills to thrive in the rapidly evolving world of<br>
+                technology. We are committed to providing top-quality <br>
+                education through innovative curriculum, expert instructors,<br>
+                and hands-on experiences.
+            </p>
+        </div>
+
+    </div>
+    <div class="vission">
+        <div class="vission-text">
+            <h1>Vission</h1>
+            <p>Nexus Group AI was founded with a vision to <br>
+            pioneer AI-driven solutions that address critical<br>
+            global challenges. Led by Ioan-Andrei Cursaru,<br>
+             our CEO, our journey began with a commitment <br>to 
+            advancing peacetech solutions in the<br> Euro-Atlantic area.
+            AI Vision Systems have<br> revolutionized the industrial and
+             manufacturing <br>world. With AI, industrial processes are faster,<br>
+             more accurate, and more scalable.
+            </p>
+           
+        </div>
+        <div class="vission-pic">
+            <img src="images/vission4.jpeg">
+        </div>
+
+    </div>
+    <div class="satisfaction-header">
+        <h1>Facts About Us</h1>
+    </div>
+
+    <div class="satisfaction">
+        <div class="one1">
+            <h1> Clients Satisfaction</h1>
+            
+        </div>
+        <div class="two2">
+            <img src="images/birds.jpeg">
+        </div>
+        <div class="three3">
+            <h1>95%</h1>
+        </div>
+    </div>
+
+    <div class="satisfaction1">
+        <div class="one1">
+            <h1> Company Growth</h1>
+            
+        </div>
+        <div class="two2">
+            <img src="images/growthcompany.jpeg">
+
+                    </div>
+        <div class="three3">
+            <h1>97%</h1>
+
+        </div>
+    </div>
+
+    <div class="satisfaction2">
+        <div class="one1">
+            <h1> Social-Media Followers</h1>
+            
+        </div>
+        <div class="two2">
+            <img src="images/social media1.jpeg">
+
+                    </div>
+        <div class="three3">
+            <h1>1.4M</h1>
+
+        </div>
+    </div>
+   <div class="trainer-heading">
+    <h1> Our AI Researchers</h1>
+   </div>
+    <div class="trainer">
+        <div class="p1">
+            <img src="images/Ai ceo.jpeg">
+            <h3>Faramarz Farhoodi<br>
+            CEO </h3>
+        </div>
+        <div class="p1">
+            <img src="images/recruiter.jpeg">
+            <h3>Patrick Healy<br> Recruiter</h3>
+        </div>
+        <div class="p1">
+            <img src="images/trainer.jpeg">
+            <h3>Peter Jack <br> Trainer</h3>
+        </div>
+    </div>
+  
+
+    <div class="trainer1">
+        <div class="p1">
+            <img src="images/developer.jpeg">
+            <h3>Airoca Fabele<br>
+            CEO </h3>
+        </div>
+        <div class="p1">
+            <img src="images/developer2.jpeg">
+            <h3>Peter Lonal<br> Recruiter</h3>
+        </div>
+        <div class="p1">
+            <img src="images/recruiter.jpeg">
+            <h3>Hitesh Zack <br> Trainer</h3>
+        </div>
+    </div>
+
+    <div class="get-in-touch">
+        <h2> AI Nexus</h2>
+        <p> All your AI Design and Development Meet in one place</p>
+        <button> Get In Touch</button>
+        </div>
+    
+        <div class="email">
+            <h1>Go Further and achieve more from AI Nexus</h1>
+            <input type="text" name="" id="email" style="width:400px">
+            <a href="http://127.0.0.1:5501/index3.html"></a>
+            <input type="submit" value="submit" id="submit" name="">
+            
+            <p id="res"></p>
+             <div>
+          
+    
+
+
+    
+
+
+
+    <script>
+         console.log("script is working ..");
+        let email;
+          SubmitEvent=          
+             
+        document.getElementById('submit').onclick=function(){
+        email=document.getElementById('email').value;
+             
+        const regex=  /^[a-z0-9]+@[a-z]+\.[a-z]{2,3}$/; 
+                         
+        if(!regex.test(email))
+         {
+             document.getElementById('res').innerHTML="Invalid Email Address";
+            return false;
+          } else {
+            document.getElementById('res').innerHTML="submit";
+            return true;
+            }
+                    
+         }
+                        
+                    
+     </script>
+             
+</body>
+</html>

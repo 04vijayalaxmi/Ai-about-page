@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background:linear-gradient(#F5F5F5, #888888);  
+}
+.main{
+    width: 100%;
+    
+    position: relative;
+}
+.main img{
+    width: 100%;
+    padding: 30px;
+    height: 400px;
+
+}
+.main .text{
+    position: absolute;
+    color: white;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+}
+.text h2{
+    font-size: 50px;
+    font-weight: 600;
+}
+.text p{
+    font-size: 28px;
+    font-weight: 600;
+}
+.main1{
+    display: flex;
+    padding: 30px;
+    padding-left: 30px;
+}
+.main1-text{
+    padding: 50px;
+    align-items: center;
+    justify-content: center;
+   
+}
+.main1-text h2{
+font-size: 50px;
+
+font-weight: 500;
+}
+.main1-text p{
+    font-size: 20px;
+    margin-top: 20px;
+       }
+.main1-picture img{
+    height: 300px;
+    width:600px;
+}
+.one{
+    
+    
+}
+.one h1{
+    margin-left: 60PX;
+    padding-top: 20px;
+    margin-top: 40px;
+    font-size: 50px;
+}
+.mission-vission{
+    display: flex;
+    padding:40px;
+    justify-content: center;
+    align-items: center;
+}
+.mission-pic img{
+height: 400px;
+width:400px;
+border-radius: 15px;
+}
+.mission-text{
+    padding: 50px;
+    align-items: center;
+    justify-content: center;
+   
+}
+.mision-text h1{
+font-size: 50px;
+
+font-weight: 500;
+}
+.mission-text p{
+    font-size: 20px;
+    margin-top: 20px;
+       }
+
+.vission{
+        display: flex;
+        padding:20px;
+        justify-content: center;
+        align-items: center;
+        padding: 40px;
+}
+.vission-text{
+    padding: 120px;
+    
+    margin-left: 10px;
+   
+}
+.vision-text h1{
+font-size: 50px;
+
+font-weight: 500;
+}
+.vission-text p{
+    font-size: 20px;
+    margin-top: 20px;
+ }
+
+.vission-pic img{
+  height: 400px;
+  width:400px;
+  border-radius: 15px;
+  
+}
+        
+.satisfaction{
+    display: flex;
+    padding: 40px;
+    width: 100%;
+    
+    align-items:start;
+    background:antiquewhite ;
+    
+}
+.satisfaction-header{
+    background:antiquewhite ;
+     
+}
+.satisfaction-header h1{
+    padding-top: 80px;
+    font-size: 50px;
+    margin-left: 50px;
+
+}
+
+
+.one1{
+    padding: 20px;
+    margin-top: 30px;
+    font-size: 25px;
+    margin-left: 20px;
+    
+}
+.two2{
+    
+    padding: 20px;
+    margin-top: 10px;
+    margin-left: 40px;
+
+    
+    
+    
+}
+.two2 img{
+height: 250px;
+width: 250px;
+padding-left: 20px;
+margin-left: 31px;
+border-radius: 30px;
+}
+.three3{
+    padding: 60px;
+    margin-top: 10px;
+    margin-left: 70px;
+    font-size: 40px;
+}
+.satisfaction1{
+    display: flex;
+    padding: 40px;
+    width: 100%;
+    
+    align-items:start;
+    background:antiquewhite ;
+    
+}
+
+.satisfaction2{
+    display: flex;
+    padding: 40px;
+    width: 100%;
+    
+    align-items:start;
+    background:antiquewhite ;
+    
+}
+.trainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.trainer-heading{
+margin-top: 40px;
+padding-top: 30px;
+margin-left:40px ;
+font-size: 40px;
+}
+.p1 img{
+    height: 350px;
+    width: 350px;
+    padding: 30px;
+    border-radius: 0px 150px 0px 0px;
+}
+.p1 h3{
+    margin-left: 50px;
+    font-size: 30px;
+}
+.trainer1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.get-in-touch{
+    padding-top: 80px;
+    margin-top: 100px;
+    height: 400px;
+    text-align: center;
+    background-color: skyblue;
+    align-content: center;
+    justify-content: center;
+}
+.get-in-touch h2{
+    font-size: 30px;
+    
+    
+    
+}
+.get-in-touch p{
+    font-size: 25px;
+    align-content: center;
+    justify-content: center;
+    
+    padding: 20px;
+    
+}
+.get-in-touch button{
+    height: 50px;
+    width: 300px;
+    background-color: royalblue;
+    border: none;
+    color: white;
+    
+    padding: 20px;
+    border-radius: 30px;
+    font-size: 24px;
+}
+.email{
+    
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    margin-top: 90px;
+    color: white;
+    background-color: darkslateblue;
+    height: 400px;
+}
